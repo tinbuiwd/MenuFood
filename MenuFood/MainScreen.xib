@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainScreen">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundBlack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TtF-sd-B8d">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Y3-Q7-YlU">
+                    <rect key="frame" x="33.5" y="187" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="896-kC-QND"/>
+                        <constraint firstAttribute="width" constant="80" id="GT6-WW-Hj1"/>
+                    </constraints>
+                    <state key="normal" image="iceCream.png"/>
+                    <connections>
+                        <action selector="btnIceCream:" destination="-1" eventType="touchUpInside" id="fRF-mi-M28"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EP-Fg-gIq">
+                    <rect key="frame" x="83.5" y="375" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Hep-YN-FDa"/>
+                        <constraint firstAttribute="height" constant="80" id="OL7-WZ-ddH"/>
+                    </constraints>
+                    <state key="normal" image="cookie.png"/>
+                    <connections>
+                        <action selector="btnCookies:" destination="-1" eventType="touchUpInside" id="RHt-yT-26I"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap3-wH-GkB">
+                    <rect key="frame" x="147.5" y="187" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Drh-Vv-hoR"/>
+                        <constraint firstAttribute="height" constant="80" id="fHo-y4-piX"/>
+                    </constraints>
+                    <state key="normal" image="Drink.png"/>
+                    <connections>
+                        <action selector="btnDrink:" destination="-1" eventType="touchUpInside" id="b6q-Pc-Ugw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv4-VK-mNM">
+                    <rect key="frame" x="263.5" y="187" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="SDu-ZW-FS9"/>
+                        <constraint firstAttribute="width" constant="80" id="ngK-cu-qzZ"/>
+                    </constraints>
+                    <state key="normal" image="birthday.png"/>
+                    <connections>
+                        <action selector="btnBirthday:" destination="-1" eventType="touchUpInside" id="ktZ-gE-4SK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5DR-MJ-V6K">
+                    <rect key="frame" x="214.5" y="375" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="BiI-PJ-9gC"/>
+                        <constraint firstAttribute="width" constant="80" id="i4y-WS-7mv"/>
+                    </constraints>
+                    <state key="normal" image="bread.png"/>
+                    <connections>
+                        <action selector="btnBread:" destination="-1" eventType="touchUpInside" id="Son-CH-Mqh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ng-bH-yAI">
+                    <rect key="frame" x="33.5" y="290" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocB-L3-UKg">
+                    <rect key="frame" x="147.5" y="291" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cookies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bks-Td-Qd9">
+                    <rect key="frame" x="83.5" y="471" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bread" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ql-Zk-fjc">
+                    <rect key="frame" x="214.5" y="471" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgu-Kp-Xu2">
+                    <rect key="frame" x="263.5" y="289" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qgu-Kp-Xu2" firstAttribute="leading" secondItem="rv4-VK-mNM" secondAttribute="leading" id="2G5-9m-DLe"/>
+                <constraint firstItem="ocB-L3-UKg" firstAttribute="leading" secondItem="ap3-wH-GkB" secondAttribute="leading" id="2dV-Rc-Lqr"/>
+                <constraint firstItem="7Ql-Zk-fjc" firstAttribute="top" secondItem="5DR-MJ-V6K" secondAttribute="bottom" constant="16" id="36n-Jg-54L"/>
+                <constraint firstItem="rv4-VK-mNM" firstAttribute="top" secondItem="3Y3-Q7-YlU" secondAttribute="top" id="4GE-FE-628"/>
+                <constraint firstItem="5DR-MJ-V6K" firstAttribute="leading" secondItem="ap3-wH-GkB" secondAttribute="trailing" constant="-13.5" id="7xG-fz-yQl"/>
+                <constraint firstItem="ap3-wH-GkB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AYx-XD-QVy"/>
+                <constraint firstItem="Bks-Td-Qd9" firstAttribute="top" secondItem="0EP-Fg-gIq" secondAttribute="bottom" constant="16" id="Btk-aZ-Y4c"/>
+                <constraint firstItem="ocB-L3-UKg" firstAttribute="trailing" secondItem="ap3-wH-GkB" secondAttribute="trailing" id="C2A-d1-n6y"/>
+                <constraint firstItem="rv4-VK-mNM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="187" id="CU6-Sc-9oX"/>
+                <constraint firstItem="5Ng-bH-yAI" firstAttribute="leading" secondItem="3Y3-Q7-YlU" secondAttribute="leading" id="CtE-KE-ciJ"/>
+                <constraint firstItem="5DR-MJ-V6K" firstAttribute="top" secondItem="ocB-L3-UKg" secondAttribute="bottom" constant="63" id="FLv-fA-taV"/>
+                <constraint firstItem="qgu-Kp-Xu2" firstAttribute="top" secondItem="rv4-VK-mNM" secondAttribute="bottom" constant="22" id="JMM-XZ-kIN"/>
+                <constraint firstItem="0EP-Fg-gIq" firstAttribute="top" secondItem="ocB-L3-UKg" secondAttribute="bottom" constant="63" id="JQ4-qP-CAD"/>
+                <constraint firstAttribute="trailing" secondItem="TtF-sd-B8d" secondAttribute="trailing" id="JWg-M8-WeU"/>
+                <constraint firstItem="qgu-Kp-Xu2" firstAttribute="trailing" secondItem="rv4-VK-mNM" secondAttribute="trailing" id="KS7-qg-NPI"/>
+                <constraint firstItem="5Ng-bH-yAI" firstAttribute="top" secondItem="3Y3-Q7-YlU" secondAttribute="bottom" constant="23" id="Krf-FQ-WV4"/>
+                <constraint firstItem="Bks-Td-Qd9" firstAttribute="trailing" secondItem="0EP-Fg-gIq" secondAttribute="trailing" id="LRf-47-wpg"/>
+                <constraint firstItem="3Y3-Q7-YlU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="187" id="LSa-Pv-Z8P"/>
+                <constraint firstItem="ap3-wH-GkB" firstAttribute="top" secondItem="3Y3-Q7-YlU" secondAttribute="top" id="MbK-Vd-bnB"/>
+                <constraint firstItem="5DR-MJ-V6K" firstAttribute="bottom" secondItem="0EP-Fg-gIq" secondAttribute="bottom" id="Nw5-HK-wxO"/>
+                <constraint firstItem="rv4-VK-mNM" firstAttribute="leading" secondItem="ap3-wH-GkB" secondAttribute="trailing" constant="35.5" id="Tz7-Yu-9l8"/>
+                <constraint firstAttribute="bottom" secondItem="TtF-sd-B8d" secondAttribute="bottom" id="b9G-f0-Uwi"/>
+                <constraint firstItem="7Ql-Zk-fjc" firstAttribute="leading" secondItem="5DR-MJ-V6K" secondAttribute="leading" id="bld-8z-RFf"/>
+                <constraint firstItem="7Ql-Zk-fjc" firstAttribute="trailing" secondItem="5DR-MJ-V6K" secondAttribute="trailing" id="dmZ-lO-c5k"/>
+                <constraint firstItem="TtF-sd-B8d" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="i6V-A7-M9o"/>
+                <constraint firstItem="ap3-wH-GkB" firstAttribute="leading" secondItem="3Y3-Q7-YlU" secondAttribute="trailing" constant="34.5" id="rlB-sX-1sa"/>
+                <constraint firstItem="Bks-Td-Qd9" firstAttribute="leading" secondItem="0EP-Fg-gIq" secondAttribute="leading" id="sq6-ZP-gSn"/>
+                <constraint firstItem="ap3-wH-GkB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="187" id="uh8-ar-NXL"/>
+                <constraint firstItem="TtF-sd-B8d" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wCN-si-1R4"/>
+                <constraint firstItem="5Ng-bH-yAI" firstAttribute="trailing" secondItem="3Y3-Q7-YlU" secondAttribute="trailing" id="xAm-Fg-NXA"/>
+                <constraint firstItem="ap3-wH-GkB" firstAttribute="leading" secondItem="0EP-Fg-gIq" secondAttribute="trailing" constant="-15.5" id="xCq-ht-GaS"/>
+                <constraint firstItem="ocB-L3-UKg" firstAttribute="top" secondItem="ap3-wH-GkB" secondAttribute="bottom" constant="24" id="zI8-MQ-7bG"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Drink.png" width="111" height="111"/>
+        <image name="backGroundBlack.jpg" width="640" height="1136"/>
+        <image name="birthday.png" width="214" height="208"/>
+        <image name="bread.png" width="80" height="80"/>
+        <image name="cookie.png" width="80" height="80"/>
+        <image name="iceCream.png" width="80" height="80"/>
+    </resources>
+</document>
